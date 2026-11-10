@@ -1,0 +1,107 @@
+{
+ "yf_prices": {
+  "ok": {
+   "ABCOTS.BO": [
+    21,
+    167.45,
+    "2026-11-09"
+   ],
+   "ABCOTS.NS": [
+    21,
+    163.15,
+    "2026-11-09"
+   ],
+   "NOVARTIND.BO": [
+    21,
+    1861.5,
+    "2026-11-09"
+   ],
+   "^CRSLDX": [
+    21,
+    23567.0,
+    "2026-11-09"
+   ],
+   "^NSEI": [
+    21,
+    25044.65,
+    "2026-11-09"
+   ],
+   "^NSMIDCP": [
+    21,
+    72789.45,
+    "2026-11-09"
+   ]
+  },
+  "s": 1.5
+ },
+ "yf_max": {
+  "ok": {
+   "NOVARTIND.BO": 6475,
+   "^CRSLDX": 5194
+  },
+  "s": 0.4
+ },
+ "yf_shares": {
+  "ok": {
+   "RELIANCE.NS": 13532472635.0,
+   "NOVARTIND.BO": 24690798.0
+  },
+  "s": 0.5
+ },
+ "yf_info": {
+  "ok": [
+   "Technology",
+   "Information Technology Services",
+   4050376561
+  ],
+  "s": 0.6
+ },
+ "yf_splits": {
+  "ok": 3,
+  "s": 0.4
+ },
+ "bse_bhavcopy": {
+  "ok": [
+   200,
+   871332,
+   "TradDt,BizDt,Sgmt,Src,FinInstrmTp,FinInstrmId,ISIN,TckrSymb,SctySrs,XpryDt,FininstrmActlXpryDt,StrkPric,OptnTp,FinInstrmNm,OpnPric,HghPric,LwPric,ClsPric,LastPric,PrvsClsgPric,UndrlygPric,SttlmPric,OpnIntrst,ChngInOpnIntrst,TtlTradgVol,TtlTrfVal,TtlNbOfTxsExctd,SsnId,NewBrdLotQty,Rmks,Rsvd1,Rsvd2,Rs",
+   [
+    "2026-11-09,2026-11-09,CM,BSE,STK,500672,INE234A01025,EVONILE,B,,,,,EVONILE PHARMA LIMITED,1849.00,1920.70,1826.30,1861.50,1861.50,1814.05,,1865.12,,,4114,7767783.00,556,F1,1,,,,,"
+   ]
+  ],
+  "s": 0.6
+ },
+ "nse_pr_zip": {
+  "ok": {
+   "names": [
+    "an09112026.txt",
+    "bc09112026.csv",
+    "bh09112026.csv",
+    "bm09112026.txt",
+    "corpbond09112026.csv",
+    "etf09112026.csv",
+    "gl09112026.csv",
+    "hl09112026.csv",
+    "mcap09112026.csv",
+    "pd09112026.csv",
+    "pr09112026.csv",
+    "readme.txt",
+    "sme09112026.csv",
+    "tt09112026.csv"
+   ],
+   "mcap_head": [
+    "Trade Date,Symbol,Series,Security Name,Category,Last Trade Date,Face Value(Rs.),Issue Size,Close Price/Paid up value(Rs.),Market Cap(Rs.)              ",
+    "09 NOV 2026,20MICRONS,EQ,20 MICRONS LTD           ,Listed    ,09 NOV 2026,               5.00,          35286502,            187.35,     6610220419.65 ",
+    "09 NOV 2026,21STCENMGM,BE,21ST CENTURY MGMT SERVICE,Listed    ,09 NOV 2026,              10.00,          10500000,             54.55,      572565000.00",
+    "09 NOV 2026,360ONE,EQ,360 ONE WAM LIMITED      ,Listed    ,09 NOV 2026,               1.00,         407914200,           1138.00,   464206359600.00    "
+   ]
+  },
+  "s": 0.6
+ },
+ "history_speed_40_days": {
+  "ok": {
+   "200": 40
+  },
+  "s": 3.2
+ }
+}
