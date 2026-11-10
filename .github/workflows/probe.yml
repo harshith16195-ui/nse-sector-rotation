@@ -1,0 +1,18 @@
+name: NSE reachability probe
+on: { push: { branches: [nse-probe] } }
+permissions: { contents: write }
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - run: pip install requests
+      - run: python probe.py
+      - run: |
+          git config user.name github-actions
+          git config user.email github-actions@users.noreply.github.com
+          git checkout -q --orphan nse-probe-result
+          git rm -rfq --cached . && git add -f result.json
+          git commit -qm "probe result" && git push -f origin nse-probe-result
